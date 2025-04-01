@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    height: 6000px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header{
@@ -301,18 +300,24 @@ visibility: visible;
     padding-left: 35px;
     padding-right: 4PX;
     float: left;}
+    .offers-item h3{
+        padding-top:10px;
+    }
     .OFFER-text{
      color:rgb(39, 66, 66);
     }
     .OFFER-text p{
         color:rgba(39, 66, 66, 0.749);
-        font-size: 0.rem;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        line-height: 25px;
+        padding-top: 10px;
     }
     .offer-icon{
         position: absolute;
-        margin:0 -3PX;
+        margin:0 -2PX;
      color:rgb(5, 120, 120);
-        top: 12PX;
+        top:20PX;
         font-size: 1.25REM;
         left: 10;
     }
